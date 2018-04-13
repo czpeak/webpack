@@ -1,4 +1,13 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./Roboto-MediumItalic.ttf') format('ttf'),
+       url('./SourceHanSans-ExtraLight.otf') format('otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
 .hello{
   color: red;
   background: url('./icon.png');
+  font-family: 'MyFont';
 }
