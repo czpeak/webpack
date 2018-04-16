@@ -7,7 +7,7 @@ module.exports = {
     app: './src/index.js',
     print: './src/print.js'
   },
-  devtool: 'inline-source-map',
+  devtool: 'inline-source-map', // webpack 自动重新编译修改后的模块,缺点是，为了看到修改后的实际效果，你需要刷新浏览器
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
